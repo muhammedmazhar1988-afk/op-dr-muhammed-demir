@@ -5,26 +5,141 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="google-site-verification" content="nyb1Bun_fvMUtL2Fqdk032myYBfP0PSXMJro4ERs9VE" />
 <title>Op Dr Muhammed Demir - Kalp Damar Cerrahisi - Haarlem</title>
-<meta name="description" content="Op. Dr. Muhammed Demir - Haarlem'de Kalp ve Damar Cerrahisi Uzmani">
-<style>body{margin:0;font-family:Arial;background:#f8f9fa}header{background:#8b0000;color:#fff;text-align:center;padding:25px}img{width:160px;height:160px;border-radius:50%;border:4px solid #fff;object-fit:cover}section{max-width:800px;margin:15px auto;background:#fff;padding:18px;border-radius:10px}h2{color:#8b0000}</style>
+<meta name="description" content="Op. Dr. Muhammed Demir - Spaarne Gasthuis Haarlem Zuid - Kalp ve Damar Cerrahisi Uzmani">
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f8f9fa;color:#222}
+header{background:#8b0000;color:#fff;text-align:center;padding:30px 15px}
+header img{width:165px;height:165px;border-radius:50%;border:4px solid #fff;object-fit:cover;background:#fff}
+.langs{margin-top:15px;display:flex;justify-content:center;flex-wrap:wrap;gap:6px}
+.langs button{border:none;background:#fff;color:#8b0000;padding:6px 10px;border-radius:20px;cursor:pointer;font-weight:bold;font-size:13px}
+.langs button.active{background:#222;color:#fff}
+section{max-width:850px;margin:18px auto;background:#fff;padding:22px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+h2{color:#8b0000;margin-top:0}
+.contact a{display:inline-block;margin:6px 8px 6px 0;padding:10px 16px;border-radius:25px;text-decoration:none;font-weight:bold;color:#fff}
+.btn-ig{background:#E4405F}.btn-wa{background:#25D366}.btn-phone{background:#8b0000}.btn-map{background:#0b5394}
+ul{padding-left:18px}
+</style>
 </head>
 <body>
 <header>
-<img src="doktor.jpg.jpg">
-<h1>Op. Dr. Muhammed Demir</h1>
-<p>Kalp ve Damar Cerrahisi Uzmani - Haarlem / Hollanda</p>
+<img src="doktor.jpg.jpg" alt="Op Dr Muhammed Demir">
+<h1 id="t-name">Op. Dr. Muhammed Demir</h1>
+<p id="t-title">Kalp ve Damar Cerrahisi Uzmanı - Spaarne Gasthuis Haarlem Zuid</p>
+<div class="langs">
+<button onclick="setLang('tr')" id="b-tr" class="active">TR</button>
+<button onclick="setLang('en')" id="b-en">EN</button>
+<button onclick="setLang('de')" id="b-de">DE</button>
+<button onclick="setLang('fr')" id="b-fr">FR</button>
+<button onclick="setLang('ar')" id="b-ar">AR</button>
+<button onclick="setLang('ru')" id="b-ru">RU</button>
+<button onclick="setLang('fa')" id="b-fa">FA</button>
+</div>
 </header>
+
 <section>
-<h2>Hakkimda</h2>
-<p>Haarlem'de Kalp ve Damar Cerrahisi Uzmani olarak hizmet vermekteyim.</p>
-<h2>Hizmetlerimiz</h2>
-<ul>
-<li>Kalp Damar Hastaliklari</li>
-<li>Koroner Anjiyografi</li>
-<li>Kalp Yetmezligi</li>
-<li>Hipertansiyon ve Aritmi</li>
-<li>Varis Tedavisi</li>
+<h2 id="t-about-h">Hakkımda</h2>
+<p id="t-about-p">Op. Dr. Muhammed Demir, Hollanda’nın Haarlem şehrinde Spaarne Gasthuis Haarlem Zuid Hastanesi’nde Kalp ve Damar Cerrahisi alanında hizmet vermektedir. Alanında uzun yıllara dayanan klinik deneyime sahip olup, koroner arter hastalıkları, kalp kapak hastalıkları, aort cerrahisi, periferik damar hastalıkları ve varis tedavisinde modern, kanıta dayalı ve hasta odaklı yaklaşımı benimsemektedir. Amacı, her hastasına uluslararası standartlarda, güvenli ve etik cerrahi hizmet sunmaktır.</p>
+
+<h2 id="t-services-h">Hizmetlerimiz</h2>
+<ul id="t-services">
+<li>Koroner Arter Hastalıkları ve Bypass Cerrahisi</li>
+<li>Kalp Kapak Hastalıkları</li>
+<li>Aort ve Damar Cerrahisi</li>
+<li>Kalp Yetmezliği, Hipertansiyon ve Ritim Bozuklukları</li>
+<li>Varis ve Periferik Damar Hastalıkları Tedavisi</li>
+<li>Koroner Anjiyografi ve Kardiyovasküler Danışmanlık</li>
 </ul>
+
+<h2 id="t-contact-h">İletişim ve Danışma</h2>
+<div class="contact">
+<a class="btn-map" href="https://www.google.com/maps/search/?api=1&query=Spaarne+Gasthuis+Haarlem+Zuid" target="_blank">📍 Spaarne Gasthuis Haarlem Zuid</a>
+<a class="btn-phone" href="tel:+31232240000">📞 +31 23 224 0000</a>
+<a class="btn-phone" href="tel:+31232240010">📞 +31 23 224 0010</a>
+<a class="btn-ig" href="https://instagram.com/op.dr_muhammed__demir" target="_blank">📸 @op.dr_muhammed__demir</a>
+<a class="btn-wa" href="https://instagram.com/muhammed.demir90md" target="_blank">💬 Danışma: @muhammed.demir90md</a>
+</div>
 </section>
+
+<script>
+const dict={
+tr:{
+name:"Op. Dr. Muhammed Demir",
+title:"Kalp ve Damar Cerrahisi Uzmanı - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"Hakkımda",
+aboutP:"Op. Dr. Muhammed Demir, Hollanda’nın Haarlem şehrinde Spaarne Gasthuis Haarlem Zuid Hastanesi’nde Kalp ve Damar Cerrahisi alanında hizmet vermektedir. Alanında uzun yıllara dayanan klinik deneyime sahip olup, koroner arter hastalıkları, kalp kapak hastalıkları, aort cerrahisi, periferik damar hastalıkları ve varis tedavisinde modern, kanıta dayalı ve hasta odaklı yaklaşımı benimsemektedir. Amacı, her hastasına uluslararası standartlarda, güvenli ve etik cerrahi hizmet sunmaktır.",
+servicesH:"Hizmetlerimiz",
+services:"<li>Koroner Arter Hastalıkları ve Bypass Cerrahisi</li><li>Kalp Kapak Hastalıkları</li><li>Aort ve Damar Cerrahisi</li><li>Kalp Yetmezliği, Hipertansiyon ve Ritim Bozuklukları</li><li>Varis ve Periferik Damar Hastalıkları Tedavisi</li><li>Koroner Anjiyografi ve Kardiyovasküler Danışmanlık</li>",
+contactH:"İletişim ve Danışma"
+},
+en:{
+name:"Op. Dr. Muhammed Demir",
+title:"Cardiovascular Surgery Specialist - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"About Me",
+aboutP:"Op. Dr. Muhammed Demir is a Cardiovascular Surgery specialist at Spaarne Gasthuis Haarlem Zuid in Haarlem, Netherlands. With extensive clinical experience in coronary artery disease, heart valve diseases, aortic surgery, peripheral vascular diseases and varicose vein treatment, he provides modern, evidence-based and patient-centered care at international standards.",
+servicesH:"Services",
+services:"<li>Coronary Artery Disease and Bypass Surgery</li><li>Heart Valve Diseases</li><li>Aortic and Vascular Surgery</li><li>Heart Failure, Hypertension and Arrhythmia</li><li>Varicose Veins and Peripheral Vascular Treatment</li><li>Coronary Angiography and Consultation</li>",
+contactH:"Contact and Consultation"
+},
+de:{
+name:"Op. Dr. Muhammed Demir",
+title:"Facharzt für Herz- und Gefäßchirurgie - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"Über mich",
+aboutP:"Op. Dr. Muhammed Demir ist Facharzt für Herz- und Gefäßchirurgie im Spaarne Gasthuis Haarlem Zuid in Haarlem, Niederlande. Mit langjähriger Erfahrung in koronarer Herzkrankheit, Herzklappenerkrankungen, Aortenchirurgie und Varikose-Behandlung bietet er moderne, evidenzbasierte und patientenorientierte Versorgung auf internationalem Niveau.",
+servicesH:"Leistungen",
+services:"<li>Koronare Herzkrankheit und Bypass-Chirurgie</li><li>Herzklappenerkrankungen</li><li>Aorten- und Gefäßchirurgie</li><li>Herzinsuffizienz, Hypertonie und Arrhythmie</li><li>Krampfadern und periphere Gefäßerkrankungen</li><li>Koronarangiographie und Beratung</li>",
+contactH:"Kontakt und Beratung"
+},
+fr:{
+name:"Op. Dr. Muhammed Demir",
+title:"Spécialiste en Chirurgie Cardio-Vasculaire - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"À propos",
+aboutP:"Op. Dr. Muhammed Demir est spécialiste en chirurgie cardio-vasculaire à l'hôpital Spaarne Gasthuis Haarlem Zuid à Haarlem, Pays-Bas. Avec une vaste expérience clinique dans les maladies coronariennes, valvulaires, aortiques et veineuses, il propose une prise en charge moderne, fondée sur les preuves et centrée sur le patient.",
+servicesH:"Services",
+services:"<li>Maladies coronariennes et pontage</li><li>Maladies des valves cardiaques</li><li>Chirurgie aortique et vasculaire</li><li>Insuffisance cardiaque, hypertension et arythmie</li><li>Varices et maladies vasculaires périphériques</li><li>Coronarographie et consultation</li>",
+contactH:"Contact et Consultation"
+},
+ar:{
+name:"أوب. د. محمد دمير",
+title:"أخصائي جراحة القلب والأوعية الدموية - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"نبذة عني",
+aboutP:"أوب. د. محمد دمير هو أخصائي جراحة القلب والأوعية الدموية في مستشفى Spaarne Gasthuis Haarlem Zuid في هارلم، هولندا. يتمتع بخبرة سريرية واسعة في أمراض الشرايين التاجية، أمراض صمامات القلب، جراحة الأبهر، أمراض الأوعية المحيطية وعلاج الدوالي، ويقدم رعاية حديثة مبنية على الأدلة ومتمحورة حول المريض.",
+servicesH:"خدماتنا",
+services:"<li>أمراض الشرايين التاجية وجراحة المجازة</li><li>أمراض صمامات القلب</li><li>جراحة الأبهر والأوعية الدموية</li><li>قصور القلب وارتفاع الضغط واضطراب النظم</li><li>علاج الدوالي وأمراض الأوعية المحيطية</li><li>قسطرة القلب والاستشارة القلبية</li>",
+contactH:"الاتصال والاستشارة"
+},
+ru:{
+name:"Оп. Др. Мухаммед Демир",
+title:"Специалист по сердечно-сосудистой хирургии - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"Обо мне",
+aboutP:"Оп. Др. Мухаммед Демир — специалист по сердечно-сосудистой хирургии в больнице Spaarne Gasthuis Haarlem Zuid в Харлеме, Нидерланды. Имеет большой клинический опыт в лечении ишемической болезни сердца, клапанных пороков, аортальной хирургии и варикозной болезни, предоставляя современную, доказательную и пациентоориентированную помощь.",
+servicesH:"Услуги",
+services:"<li>Ишемическая болезнь сердца и шунтирование</li><li>Заболевания клапанов сердца</li><li>Аортальная и сосудистая хирургия</li><li>Сердечная недостаточность, гипертония и аритмия</li><li>Варикоз и периферические сосудистые заболевания</li><li>Коронарография и консультация</li>",
+contactH:"Контакты и консультация"
+},
+fa:{
+name:"اپ. دکتر محمد دمیر",
+title:"متخصص جراحی قلب و عروق - Spaarne Gasthuis Haarlem Zuid",
+aboutH:"درباره من",
+aboutP:"اپ. دکتر محمد دمیر متخصص جراحی قلب و عروق در بیمارستان Spaarne Gasthuis Haarlem Zuid در شهر هارلم هلند می باشد. ایشان با سالها تجربه بالینی در بیماری های عروق کرونر، بیماری های دریچه قلب، جراحی آئورت، بیماری های عروق محیطی و درمان واریس، خدمات درمانی مدرن، مبتنی بر شواهد و بیمار محور در سطح استانداردهای بین المللی ارائه می دهد.",
+servicesH:"خدمات",
+services:"<li>بیماری های عروق کرونر و جراحی بای پس</li><li>بیماری های دریچه قلب</li><li>جراحی آئورت و عروق</li><li>نارسایی قلبی، فشار خون و آریتمی</li><li>درمان واریس و بیماری های عروق محیطی</li><li>آنژیوگرافی کرونر و مشاوره قلبی عروقی</li>",
+contactH:"تماس و مشاوره"
+}
+};
+function setLang(l){
+const d=dict[l];
+document.getElementById('t-name').innerText=d.name;
+document.getElementById('t-title').innerText=d.title;
+document.getElementById('t-about-h').innerText=d.aboutH;
+document.getElementById('t-about-p').innerText=d.aboutP;
+document.getElementById('t-services-h').innerText=d.servicesH;
+document.getElementById('t-services').innerHTML=d.services;
+document.getElementById('t-contact-h').innerText=d.contactH;
+document.documentElement.lang=l;
+document.body.dir=(l=='ar'||l=='fa')?'rtl':'ltr';
+document.querySelectorAll('.langs button').forEach(b=>b.classList.remove('active'));
+document.getElementById('b-'+l).classList.add('active');
+}
+</script>
 </body>
 </html>
